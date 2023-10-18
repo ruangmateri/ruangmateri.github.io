@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal Algoritma Array - BELAJAR</title>
+    <meta name="description" content="Contoh Soal Algoritma Array, , , , , , , 0, , , , , , 0, contoh-soal-algoritma-array, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal Algoritma Array - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal Algoritma Array, , , , , , , 0, , , , , , 0, contoh-soal-algoritma-array, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal Algoritma Array - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal Algoritma Array, , , , , , , 0, , , , , , 0, contoh-soal-algoritma-array, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://ruangmateri.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://ruangmateri.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://ruangmateri.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://ruangmateri.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://ruangmateri.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://ruangmateri.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://ruangmateri.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://ruangmateri.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://ruangmateri.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://ruangmateri.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal Algoritma Array</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">adm52</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+Algoritma+Array" alt="Contoh Soal Algoritma Array">
+                    </div>
+                    <p></p>
+                    <p>contoh algoritma untuk array dan matriks​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-algoritma-untuk-array-dan-matriks%e2%80%8b">1.
+                                            contoh algoritma untuk array dan matriks​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-fungsi-array-pada-pembentukan-algoritma-sorting%e2%80%8b">2.
+                                            Apakah fungsi array pada pembentukan algoritma sorting?​.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma-tersebut-hingga-menghasilkan-array-c-dari-pengg">3.
+                                            Buatlah algoritma penggabungan array jika diketahui A=[1,3,5] dan B=[2,4,6] akan digabungkan menjadi C=[1,2,3,4,5,6]  dan tuliskan proses dari algoritma tersebut hingga menghasilkan array C dari penggabungan array A dan B!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-algoritma-matematika-dan-berikan-contoh-soalnya">4.
+                                            Apa itu algoritma matematika? dan berikan contoh soalnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-lah-flowchart-dengan-raptor-untuk-mengetahui-2-buah-array-2-dimensi-3x3-dan-gabungkan-2-array-tersebut-menjadi-satu-dimensi-kemudian-lakukan-penyortingan-gunakan-algoritma-yang-anda-sukai-di-mu">5.
+                                            Buat lah flowchart dengan raptor untuk mengetahui 2 buah array 2 dimensi 3x3 dan gabungkan 2 array tersebut menjadi satu dimensi kemudian lakukan penyortingan (gunakan algoritma yang anda sukai) di mulai dari yang terkecil.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-kasus-algoritma-fungsi">6.
+                                            contoh soal kasus algoritma fungsi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-algoritma%e2%80%8b">7.
+                                            Contoh soal algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#3algoritma-yang-dinyatakan-dalam-diagramdengan-bentuk-bentuk-tertentu-adalahpengertian-dari-a-algoritmab-arrayc-pseudocoded-flowcharte-konstantaakah-selanjutnya-setelah-program-berhasi%e2%80%8b">8.
+                                            3Algoritma yang dinyatakan dalam diagramdengan bentuk-bentuk tertentu adalahpengertian dari ...a algoritmab. arrayc. pseudocoded flowcharte konstantaakah selanjutnya setelah program berhasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-array-1-dimensi-dan-contoh-array-2-dimensitlg-di-bantu-y-kak%e2%80%8b">9.
+                                             contoh array 1 dimensi dan contoh array 2 dimensitlg di bantu y kak​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kapan-kita-seharusnya-menggunakan-array-dalam-membuat-program-dan-berikan-contoh-pendeklarasian-array-dalam-bahasa-java">10.
+                                            kapan kita seharusnya menggunakan array dalam membuat program ?dan berikan contoh pendeklarasian array dalam bahasa java!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-sudah-ada-array-a-dan-array-b-yang-dibuat-dengan-int-a11-dan-int-b11-array-a-sudah-ada-isinya-dan-array-b-belum-ada-isinya-dengan-ilustrasi-sebagai-berikutgambar-ilustrasi-ada-pada-file-mo">11.
+                                            1. Sudah ada array A dan array B yang dibuat dengan int A[11], dan int B[11].
+Array A sudah ada isinya, dan array B belum ada isinya dengan ilustrasi sebagai berikut:
+Gambar ilustrasi ada pada file Modul 10-11. Manipulasi Array Satu Dimensi.pdf halaman 18
+Susun algoritma dan flowchart untuk menyalin isi array A yang merupakan bilangan ganjil ke array B 
+sehingga isi array B menjadi sebagai berikut:
+Gambar ilustrasi ada pada file Modul 10-11. Manipulasi Array Satu Dimensi.pdf halaman 18</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-mencari-informasi-berdasarkan-kata-kunci-mulai-dari-awal-array-hingga-akhir-array-adalah">12.
+                                            Algoritma yang mencari informasi berdasarkan kata kunci mulai dari awal array hingga akhir array adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-contoh-dari-array-dalam-informatika">13.
+                                            Apakah contoh dari Array dalam Informatika</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#untuk-memudahkan-operasi-pengisian-array-dapat-digunakanalgoritma%e2%80%8b">14.
+                                            Untuk memudahkan operasi pengisian array dapat digunakanalgoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritmab-arrayc-pseudocoded-flowchart%e2%80%8b">15.
+                                            Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ..... *A. AlgoritmaB. ArrayC. PseudocodeD. Flowchart​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jika-diketahui-array-a-1210414167185139-maka-nilai-tukar-dari-algoritma-pengurutan-cepat-pada-pivot-18-adalah-%e2%80%8b">16.
+                                            Jika diketahui array A= {12,10,4,14,16,7,18,5,13,9} maka nilai tukar dari algoritma pengurutan cepat pada pivot 18 adalah..​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-algoritma-buble-sort-ascending-dengan-array-45-12-1-0-4-5-2-14-17-3">17.
+                                            Contoh algoritma buble sort ascending dengan array 45 12 -1 0 4 5 -2 14 17 3</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-uts-algoritma-dan-pemrograman%e2%80%8b">18.
+                                            contoh soal uts algoritma dan pemrograman​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#diberikan-array-2-dimensi-seperti-dibawah-ini-buat-algoritma-untuk-menampilkan-elemen-elemen-array-yang-diarsir">19.
+                                            Diberikan array 2 dimensi seperti dibawah ini, buat algoritma untuk menampilkan elemen-elemen array yang diarsir!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">20.
+                                            Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-contoh-soal-algoritmajawab-secepatnya-%e2%80%8b">21.
+                                            tuliskan contoh soal algoritmajawab secepatnya ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#soal-array-pada-pascal">22.
+                                            soal array pada pascal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-algoritma-siskomdig">23.
+                                            contoh soal algoritma siskomdig </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-algoritma-looping">24.
+                                            contoh soal algoritma looping</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">25.
+                                            Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#diketahui-sebuah-array-14-13-7-5-25-11-urutkan-array-tersebut-dengan-algoritma-insertion-short%e2%80%8b">26.
+                                            Diketahui sebuah array 14 13 7 5 25 11 Urutkan array tersebut dengan algoritma insertion short​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-data-tersimpan-dalam-array-a-571215192225273235374045535762666973gunakan-algoritma-binary-dan-fibonacci-search-untuk-mencari-data-x-20">27.
+                                            Sebuah data tersimpan dalam Array A = {5,7,12,15,19,22,25,27,32,35,37,40,45,53,57,62,66,69,73}
+gunakan algoritma Binary dan fibonacci search untuk mencari data
+ X = 20</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-10-contoh-soal-algoritma-berserta-pembahasan-nya">28.
+                                            Sebutkan 10 contoh soal algoritma berserta pembahasan nya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-programarray%e2%80%8b">29.
+                                            Contoh Programarray​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma-tersebut-hingga-menghasilkan-array-c-dari-penggab">30.
+                                            buatlah algoritma penggabungan array jika diketahui A=[1,3,5] dan B[2,4,6] akan digabungkan menjadi C=[1,2,3,4,5,6] dan tuliskan proses dari algoritma tersebut hingga menghasilkan array c dari penggabungan array a dan b</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#untuk-memudahkan-operasi-pengisian-array-dapat-digunakan-algoritma">31.
+                                            Untuk memudahkan operasi pengisian array dapat digunakan algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#latihan-soal1-apa-yang-yang-dimaksud-dengan-algoritma2-siapa-nama-ahli-yang-diambil-untuk-algoritma3-sebutkan-karakteristik-algoritma4-tuliskan-salah-satu-contoh-algoritma-dalamkehidupan-sehari">32.
+                                            Latihan soal1. Apa yang yang dimaksud dengan algoritma?2. Siapa nama ahli yang diambil untuk algoritma?3. Sebutkan karakteristik algoritma!4. Tuliskan salah satu contoh algoritma dalamkehidupan sehari-hari!5. Apa yang dimaksud algoritma harus efektif?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-essay-uts-dan-jawaban-algoritma-dan-pemrograman">33.
+                                            Contoh Soal essay uts dan jawaban algoritma dan pemrograman</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-soal-array-multidimensi-tipe-string">34.
+                                            contoh soal array multidimensi tipe string</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#urutkan-array-3524-dengan-algoritma-insertion-sort">35.
+                                            Urutkan array (3,5,2,4) dengan algoritma insertion sort</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-algoritma-matematika-dan-berikan-contoh-soalnya">36.
+                                            Apa itu algoritma matematika? dan berikan contoh soalnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-soal-algoritma-dan-pembahsnnyathankss">37.
+                                            sebutkan 5 contoh soal algoritma dan pembahsnnya?
+thankss...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">38.
+                                            Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pid-potongan-script-disamping-termasuk-data-bertipea-array-multi-dimensic-array-dimensi-tigab-array-dimensi-satud-array-dimensi-duae-array-dimensi-empat1-soal-essay-jawablah-pertanyaan-beriku">39.
+                                            PID, Potongan script disamping termasuk data bertipea. Array Multi-Dimensic. Array dimensi tigab. Array dimensi satud. Array dimensi duae. Array dimensi empat1. Soal ESSAY : Jawablah pertanyaan berikut dengan benar1. Perhatikan algoritma berikut ini.KAMUSA, B, C, T:integerBEGIN ALGORITMAT=0INPUT (A)T = T+AINPUT (B)T=T+BINPUT (C)T=T+COUTPUT (T)END ALGORITMABerapakah nilai T, jika nilai A, B, C berturut-turut di INPUTkan dengan nilai 7,5 dan 2​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#diberikan-array-2-dimensi-seperti-dibawah-ini-buat-algoritma-untuk-menampilkan-elemen-elemen-array-yang-diarsir">40.
+                                            Diberikan array 2 dimensi seperti dibawah ini, buat algoritma untuk menampilkan elemen-elemen array yang diarsir!</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="contoh-algoritma-untuk-array-dan-matriks%e2%80%8b">
+                            1. contoh algoritma untuk array dan matriks​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>semoga membantu ya kak</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apakah-fungsi-array-pada-pembentukan-algoritma-sorting%e2%80%8b">
+                            2. Apakah fungsi array pada pembentukan algoritma sorting?​.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Jawaban pada penjelasan ya</p><p><strong>Penjelasan:</strong></p><p>Array adalah struktur data yang memungkinkan Anda menyimpan dan mengakses sekumpulan data yang terorganisir secara terurut. Dalam pembentukan algoritma sorting, array sering digunakan untuk menyimpan data yang akan diurutkan. Algoritma sorting akan membandingkan elemen-elemen dari array tersebut satu per satu dan mengurutkannya sesuai dengan kriteria yang telah ditentukan, seperti mengurutkan dari yang terkecil ke yang terbesar atau sebaliknya. Dengan menggunakan array, Anda dapat dengan mudah mengakses dan memanipulasi data yang akan diurutkan, sehingga memudahkan Anda dalam membuat algoritma sorting yang efisien dan tepat.</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma-tersebut-hingga-menghasilkan-array-c-dari-pengg">
+                            3. Buatlah algoritma penggabungan array jika diketahui A=[1,3,5] dan B=[2,4,6] akan digabungkan menjadi C=[1,2,3,4,5,6]  dan tuliskan proses dari algoritma tersebut hingga menghasilkan array C dari penggabungan array A dan B!</h2><br />
+                        alogaritmanya kira-kira seperti ini<br />
+                                            <h2 class="ez-toc-section" id="apa-itu-algoritma-matematika-dan-berikan-contoh-soalnya">
+                            4. Apa itu algoritma matematika? dan berikan contoh soalnya</h2><br />
+                        Pengertian algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah.<br />
+                                            <h2 class="ez-toc-section" id="buat-lah-flowchart-dengan-raptor-untuk-mengetahui-2-buah-array-2-dimensi-3x3-dan-gabungkan-2-array-tersebut-menjadi-satu-dimensi-kemudian-lakukan-penyortingan-gunakan-algoritma-yang-anda-sukai-di-mu">
+                            5. Buat lah flowchart dengan raptor untuk mengetahui 2 buah array 2 dimensi 3x3 dan gabungkan 2 array tersebut menjadi satu dimensi kemudian lakukan penyortingan (gunakan algoritma yang anda sukai) di mulai dari yang terkecil.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Berikut adalah algoritma untuk menggabungkan dua array 2 dimensi 3x3 menjadi satu dimensi dan melakukan penyortiran mulai dari yang terkecil:</p><p></p><p>1. Inisialisasi dua array 2 dimensi 3x3, misalnya `array1` dan `array2`.</p><p>2. Buat sebuah array baru kosong, misalnya `mergedArray`.</p><p>3. Lakukan iterasi untuk setiap elemen pada `array1` dan `array2`:</p><p>     - Ambil elemen pertama dari `array1` dan masukkan ke `mergedArray`.</p><p>     - Ambil elemen pertama dari `array2` dan masukkan ke `mergedArray`.</p><p>4. Setelah iterasi selesai, `mergedArray` akan berisi gabungan dari kedua array.</p><p>5. Lakukan penyortiran pada `mergedArray` mulai dari yang terkecil menggunakan algoritma penyortiran seperti Bubble Sort, Selection Sort, atau Quick Sort.</p><p>6. Setelah penyortiran selesai, `mergedArray` akan berisi elemen-elemen yang sudah terurut dari yang terkecil hingga yang terbesar.</p><p></p><p>Berikut adalah contoh kode dalam bahasa pemrograman Python untuk mengimplementasikan algoritma di atas:</p><p></p><p>```python</p><p># Inisialisasi dua array 2 dimensi 3x3</p><p>array1 = [[5, 2, 9], [1, 8, 4], [6, 3, 7]]</p><p>array2 = [[3, 6, 1], [8, 2, 7], [5, 9, 4]]</p><p></p><p># Menggabungkan dua array menjadi satu dimensi</p><p>mergedArray = []</p><p>for i in range(3):</p><p>    mergedArray.extend(array1[i])</p><p>    mergedArray.extend(array2[i])</p><p></p><p># Melakukan penyortiran mulai dari yang terkecil</p><p>mergedArray.sort()</p><p></p><p># Menampilkan hasil</p><p>print("Array hasil penggabungan dan penyortiran:")</p><p>print(mergedArray)</p><p>```</p><p></p><p>Output yang dihasilkan adalah:</p><p>```</p><p>Array hasil penggabungan dan penyortiran:</p><p>[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9]</p><p>```</p><p></p><p>Dalam contoh di atas, `mergedArray` berisi gabungan dari `array1` dan `array2` dalam satu dimensi dan telah diurutkan mulai dari yang terkecil.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-kasus-algoritma-fungsi">
+                            6. contoh soal kasus algoritma fungsi</h2><br />
+                        <p> Buatlah algoritma dan program untuk menghitung luas dan volume suatu balok dengan menggunakan program C++ dengan struktur urut. Adapun rumus luas daribalok adalah : (2*p*l) + (2*p*t) + (2*l*t), sedangkan volume balok adalah :Volume = p*l*t.</p><p> </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-algoritma%e2%80%8b">
+                            7. Contoh soal algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Algoritma Narasi</p><p></p><p>Contoh: Algoritma Kelulusan_mhs</p><p></p>Persoalan: Diberikan data berupa nama dan nilai mahasiswa. Jika nilai mahasiswa lebih besar atau sama dengan 60 maka mahasiswa tersebut dinyatakan lulus. Sedangkan jika nilainya lebih kecil dari 60, maka mahasiswa tersebut dinyatakan tidak lulus.<br />
+                                            <h2 class="ez-toc-section" id="3algoritma-yang-dinyatakan-dalam-diagramdengan-bentuk-bentuk-tertentu-adalahpengertian-dari-a-algoritmab-arrayc-pseudocoded-flowcharte-konstantaakah-selanjutnya-setelah-program-berhasi%e2%80%8b">
+                            8. 3Algoritma yang dinyatakan dalam diagramdengan bentuk-bentuk tertentu adalahpengertian dari ...a algoritmab. arrayc. pseudocoded flowcharte konstantaakah selanjutnya setelah program berhasi​</h2><br />
+                        <p>Jawaban:d.flowchart</p><p></p><p>Penjelasan:</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-array-1-dimensi-dan-contoh-array-2-dimensitlg-di-bantu-y-kak%e2%80%8b">
+                            9.  contoh array 1 dimensi dan contoh array 2 dimensitlg di bantu y kak​</h2><br />
+                        <p>OK TI aku siap membantu kamu</p><p>Array 1 dimensi adalah sebuah layar lebar untuk menonton flim korea jimin.</p><p></p><p>Dan Array 2 dimensi  adalah sebuah layar tancap untuk membuat vidio dan flim yang sangat bagus sekali.</p><p></p><p>Semoga bermanfaat ya</p><br />
+                                            <h2 class="ez-toc-section" id="kapan-kita-seharusnya-menggunakan-array-dalam-membuat-program-dan-berikan-contoh-pendeklarasian-array-dalam-bahasa-java">
+                            10. kapan kita seharusnya menggunakan array dalam membuat program ?dan berikan contoh pendeklarasian array dalam bahasa java!</h2><br />
+                        Kita menggunakan array ketika ingin menyimpam banyak data, misalkan ada 100 angka yang ingin di simpan sesuai inputan, apakah mungkin membuat 100 variable &amp; 100 if untuk inputan tersebut? Maka digunakanlah array.<br />Contoh dalam bahasa java :<br />int[] arraysaya = new int[100];<br /><br />Semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="1-sudah-ada-array-a-dan-array-b-yang-dibuat-dengan-int-a11-dan-int-b11-array-a-sudah-ada-isinya-dan-array-b-belum-ada-isinya-dengan-ilustrasi-sebagai-berikutgambar-ilustrasi-ada-pada-file-mo">
+                            11. 1. Sudah ada array A dan array B yang dibuat dengan int A[11], dan int B[11].
+Array A sudah ada isinya, dan array B belum ada isinya dengan ilustrasi sebagai berikut:
+Gambar ilustrasi ada pada file Modul 10-11. Manipulasi Array Satu Dimensi.pdf halaman 18
+Susun algoritma dan flowchart untuk menyalin isi array A yang merupakan bilangan ganjil ke array B 
+sehingga isi array B menjadi sebagai berikut:
+Gambar ilustrasi ada pada file Modul 10-11. Manipulasi Array Satu Dimensi.pdf halaman 18</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>#include bits/stdc++.h</p><p>using namespace std;</p><p></p><p>int main(){</p><p>int A[11];</p><p>vector&lt;int&gt;B;</p><p>for(int i = 0;i &lt; 11;i++){</p><p>cin&gt;&gt;A[i];</p><p>if(A[i]%2 != 0){</p><p>B.push_back(A[i]);</p><p>}</p><p>}</p><p>for(int i = 0;i &lt; B.size();i++){</p><p>cout&lt;&lt;B[i]&lt;&lt;" ";</p><p>}</p><p>cout&lt;&lt;endl;</p><p>return 0;</p><p>}</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-mencari-informasi-berdasarkan-kata-kunci-mulai-dari-awal-array-hingga-akhir-array-adalah">
+                            12. Algoritma yang mencari informasi berdasarkan kata kunci mulai dari awal array hingga akhir array adalah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Salah satu algoritma yang dapat digunakan untuk mencari informasi berdasarkan kata kunci dari awal array hingga akhir array adalah algoritma Linear Search. Berikut adalah pseudocode untuk algoritma Linear Search:</p><p></p><p>```</p><p>1. Inisialisasi posisiAwal = -1 (berarti kata kunci tidak ditemukan)</p><p>2. Untuk setiap elemen arr[i] dalam array:</p><p>     a. Jika arr[i] sama dengan kata kunci:</p><p>          i. Set posisiAwal = i</p><p>          ii. Hentikan pencarian</p><p>3. Kembalikan posisiAwal</p><p>```</p><p></p><p>Dalam algoritma ini, pencarian dimulai dari awal array dan berlanjut hingga akhir array. Jika kata kunci ditemukan, posisi awal diperbarui dengan indeks di mana kata kunci ditemukan. Jika kata kunci tidak ditemukan, posisiAwal tetap -1.</p><p></p><p>Berikut adalah contoh implementasi algoritma Linear Search dalam bahasa Python:</p><p></p><p>```python</p><p>def linear_search(arr, kata_kunci):</p><p>    posisi_awal = -1</p><p>    for i in range(len(arr)):</p><p>        if arr[i] == kata_kunci:</p><p>            posisi_awal = i</p><p>            break</p><p>    return posisi_awal</p><p>```</p><p></p><p>Anda dapat memanggil fungsi `linear_search` dengan memberikan array dan kata kunci yang ingin dicari sebagai argumen. Fungsi akan mengembalikan indeks pertama di mana kata kunci ditemukan, atau -1 jika kata kunci tidak ada dalam array.</p><p></p><p>Contoh penggunaan:</p><p></p><p>```python</p><p>array = [4, 2, 7, 1, 9, 5]</p><p>kata_kunci = 7</p><p>posisi = linear_search(array, kata_kunci)</p><p>print("Kata kunci ditemukan pada indeks:", posisi)</p><p>```</p><p></p><p>Output:</p><p>```</p><p>Kata kunci ditemukan pada indeks: 2</p><p>```</p><p></p><p>Dalam contoh di atas, kata kunci "7" ditemukan pada indeks ke-2 dalam array.</p><br />
+                                            <h2 class="ez-toc-section" id="apakah-contoh-dari-array-dalam-informatika">
+                            13. Apakah contoh dari Array dalam Informatika</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Dalam ilmu informatika, Array adalah struktur data yang digunakan untuk menyimpan kumpulan elemen data dengan tipe yang sama, yang diakses menggunakan indeks. Berikut adalah beberapa contoh penggunaan Array dalam informatika:</strong></p><p><strong></strong></p><p><strong>1. Array dalam Bahasa Pemrograman:</strong></p><p><strong>   Dalam bahasa pemrograman seperti C, C++, Java, Python, dan sebagainya, Anda dapat membuat Array untuk menyimpan data seperti angka, huruf, atau bahkan objek. Misalnya, Anda dapat membuat Array untuk menyimpan daftar nilai siswa, data suhu dalam sehari, atau karakter dalam sebuah string.</strong></p><p><strong></strong></p><p><strong>2. Array dalam Spreadsheet:</strong></p><p><strong>   Dalam program spreadsheet seperti Microsoft Excel atau Google Sheets, Anda dapat menggunakan Array untuk menyimpan data dalam bentuk tabel. Misalnya, Anda dapat menggunakan Array untuk menyimpan data penjualan per bulan atau data stok barang.</strong></p><p><strong></strong></p><p><strong>3. Array dalam Gambar Digital:</strong></p><p><strong>   Dalam pemrosesan gambar digital, Array sering digunakan untuk menyimpan piksel-piksel gambar. Setiap elemen dalam Array mewakili nilai piksel (misalnya, warna atau tingkat kecerahan) pada lokasi tertentu dalam gambar.</strong></p><p><strong></strong></p><p><strong>4. Array dalam Database:</strong></p><p><strong>   Dalam basis data, Array digunakan untuk menyimpan data terstruktur dalam tabel. Misalnya, dalam MySQL atau PostgreSQL, Anda dapat menggunakan Array untuk menyimpan daftar nilai dalam satu kolom dari suatu tabel.</strong></p><p><strong></strong></p><p><strong>5. Array dalam Pengolahan Sinyal:</strong></p><p><strong>   Dalam pengolahan sinyal atau audio, Array digunakan untuk menyimpan sampel-sampel suara dalam bentuk digital. Setiap elemen Array mewakili nilai amplitudo pada suatu waktu tertentu.</strong></p><p><strong></strong></p><p><strong>Contoh-contoh di atas menunjukkan bahwa Array adalah struktur data yang fleksibel dan dapat digunakan dalam berbagai bidang untuk mengatur dan menyimpan data dengan efisien.</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="untuk-memudahkan-operasi-pengisian-array-dapat-digunakanalgoritma%e2%80%8b">
+                            14. Untuk memudahkan operasi pengisian array dapat digunakanalgoritma​</h2><br />
+                        <p>Bubble sort</p><p></p><p>Maaf jika salah </p><br />
+                                            <h2 class="ez-toc-section" id="merupakan-algoritma-yang-dinyatakan-dalam-diagram-dengan-bentuk-bentuk-tertentu-adalah-pengertian-dari-a-algoritmab-arrayc-pseudocoded-flowchart%e2%80%8b">
+                            15. Merupakan algoritma yang dinyatakan dalam diagram dengan bentuk-bentuk tertentu, adalah pengertian dari ..... *A. AlgoritmaB. ArrayC. PseudocodeD. Flowchart​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>d.flowchart</p><p><strong>Penjelasan:</strong></p><p>semoga membantu</p>jadikan jawaban tercerdas<br />
+                                            <h2 class="ez-toc-section" id="jika-diketahui-array-a-1210414167185139-maka-nilai-tukar-dari-algoritma-pengurutan-cepat-pada-pivot-18-adalah-%e2%80%8b">
+                            16. Jika diketahui array A= {12,10,4,14,16,7,18,5,13,9} maka nilai tukar dari algoritma pengurutan cepat pada pivot 18 adalah..​</h2><br />
+                        <p>Untuk dapat menjawab pertanyaan ini, diperlukan informasi yang lebih spesifik tentang implementasi algoritma pengurutan cepat (quick sort) yang digunakan dan bagaimana pivot dipilih dalam kasus tersebut. Tanpa informasi tersebut, tidak dapat memberikan jawaban yang tepat.</p><p></p><p>Secara umum, algoritma pengurutan cepat (quick sort) adalah sebuah algoritma pengurutan yang mengurutkan sebuah array dengan cara memilih elemen array sebagai pivot, membagi array menjadi dua bagian berdasarkan pivot, dan kemudian mengurutkan bagian-bagian tersebut secara rekursif. Biasanya, pivot dipilih secara acak dari array, atau dipilih sebagai elemen tengah dari array.</p><p></p><p>Jika pivot dipilih sebagai elemen 18 dari array A di atas, maka proses pengurutan cepat akan membagi array A menjadi dua bagian, yaitu bagian pertama yang berisi semua elemen yang lebih kecil dari 18, dan bagian kedua yang berisi semua elemen yang lebih besar dari 18. Bagian pertama akan berisi elemen-elemen 12, 10, 4, 14, 16, 7, 5, 13, 9, sedangkan bagian kedua akan berisi hanya satu elemen yaitu 18. Setelah itu, bagian-bagian tersebut akan diurutkan secara rekursif menggunakan algoritma pengurutan cepat.</p><p></p><p>Nilai tukar dari algoritma pengurutan cepat adalah jumlah perpindahan elemen yang terjadi saat proses pengurutan. Namun, karena tidak ada informasi yang lebih spesifik tentang implementasi algoritma pengurutan cepat yang digunakan, tidak dapat memberikan jawaban yang tepat tentang nilai tukar dari algoritma pengurutan cepat pada pivot 18.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-algoritma-buble-sort-ascending-dengan-array-45-12-1-0-4-5-2-14-17-3">
+                            17. Contoh algoritma buble sort ascending dengan array 45 12 -1 0 4 5 -2 14 17 3</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>-2 -1  0  3  4  5  12  14  17  45</p><p><strong>Penjelasan:</strong></p><p><strong>Bubble Sort</strong> adalah metode pengurutan algoritma dengan melakukan penukaran data dengan data disampingnya secara terus menerus sampai bisa dipastikan dalam suatu iterasi tidak ada lagi perubahan. </p><p></p><p>Gambaran dari algoritma bubble sort:</p>Bandingkan nilai data ke-1 dan data ke-2Jika data ke-1 lebih besar dari data ke-2 maka tukar posisinyaKemudian data yg lebih besar tadi dibandingkan dengan data ke-3Lakukan langkah nomer 2 hingga selesai.<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-uts-algoritma-dan-pemrograman%e2%80%8b">
+                            18. contoh soal uts algoritma dan pemrograman​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>itukan soal gue kemaren </p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="diberikan-array-2-dimensi-seperti-dibawah-ini-buat-algoritma-untuk-menampilkan-elemen-elemen-array-yang-diarsir">
+                            19. Diberikan array 2 dimensi seperti dibawah ini, buat algoritma untuk menampilkan elemen-elemen array yang diarsir!</h2><br />
+                        dimisalkan array yang diarsir bernilai true maka caranya:<br /><br />misal i dan j adalah baris dan kolom<br />for a := 1 to i do<br />   for b := 1 to j do<br />      begin<br />         if tabel[i,j] = true then writeln(tabel[i,j]) // dengan begitu array yang <br />                                                                     //bernilai negatif tidak dicetak<br />      end for<br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">
+                            20. Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma</h2><br />
+                        $a = array (1,3,5);
+$b = array (2,4,5);
+$c= array_merge($a,$b);
+sort($c);
+$clength = count($c);
+for($x=0; $x&lt;$clength; $x++)
+{
+echo $c[$x];
+echo "<br />";
+}<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-contoh-soal-algoritmajawab-secepatnya-%e2%80%8b">
+                            21. tuliskan contoh soal algoritmajawab secepatnya ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>1. Apa definisi algoritma dan contohnya .!</p><p></p><p>2. Apa definisi Pseudo Code dan contohnya .!</p><p></p><p>3. Apa definisi flowchart dan contohnya .!</p><p></p><p>4. Jelaskan dengan contoh kasus algoritma yang memiliki struktur runtunan.!</p><p></p><p>5. Jelaskan dengan contoh kasus algoritma yang memiliki struktur percabangan.!</p><p></p><p>6. Jelaskan dengan contoh kasus algoritma yang memiliki struktur perulangan:</p><p></p><p>    a. for</p><p></p><p>    b. while</p><br />
+                                            <h2 class="ez-toc-section" id="soal-array-pada-pascal">
+                            22. soal array pada pascal</h2><br />
+                        jika array yang diarsir bernilai true maka:<br /><br />misal i dan j = baris dan kolom<br /><br />for a := 1 to i do<br />   for b := 1 to j do<br />      begin<br />         if tabel[i,j] = true then writeln(tabel[i,j])<br />      end for<br /><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-algoritma-siskomdig">
+                            23. contoh soal algoritma siskomdig </h2><br />
+                        contoh membuat teh maniscontoh perangkat keras komputer, kecuali. ( mohon maaf bila jawaban saya salah. semoga ini dapat membantu. )<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-algoritma-looping">
+                            24. contoh soal algoritma looping</h2><br />
+                        1. Algoritma untuk menentukan nilai maksimal dan minimal dari sejumlah nilai masukan N.<br /><br />2. Algoritma penjumlahan deret ke N, tetapi yang dijumlahkan adalah bilangan yang genap saja.<br /><br />3. Algortima menampilkan angka diantara 2 nilai yang dimasukan, misal nilai yang di masukan adalah 2 dan 10, maka outputnya adalah : 2 3 45 6 7 8 9 10<br /><br /> 4. Algoritma untuk menentukan validasi username dan password, dimana akan di ulang maksimal 3 kali, jika benar akan muncul komentar ” anda berhasil masuk” tapi jika tidak muncul komentar ” maaf user name dan password anda salah”<br /><br />5. Algoritma untuk menentukan sisa hasil pembagian antara bilangan yang dimasukan dengan bilangan pembagi, apabila sisa hasil baginya=0 maka outputnya ” tidak ada ”, kalau ada cetak outputnya hasil sisanya. Lakukan berulang dengan memasukan sebuah karakter Y atau T, jika pilih Y maka akan diulang, jika pilih T program selesai.<br /><br />6. Algortima untuk menghtung banyaknya bilangan genap dan ganjil serta total dari bilangan-bilangan genap dan ganjil yang ada dari n buah bilangan yang di inputkan.<br /><br />7. Algoritma menampilkan Menampilkan deret bilangan 1 – 100 yang habis dibagi dengan 2 dan habis dibagi dengan 3.<br /><br />8. Algoritma untuk menampilkan data mahasiswa sejumlah N, yang di inputkan adalah NPM, Nama, IPK, kemudian jika IPK &gt;=3 keterangan memuaskan, jika IPK &gt;=2.5 s.d IPK &lt;3 keterangan: Cukup dan jika IPK &lt; 2.5 keterangan : Memprihatinkan. Tampilkan semua data mahasiswa yang di inputkan beserta keterangn IPK nya.<br /><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">
+                            25. Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma </h2><br />
+                        alogaritmanya kira-kira seperti ini<br />
+                                            <h2 class="ez-toc-section" id="diketahui-sebuah-array-14-13-7-5-25-11-urutkan-array-tersebut-dengan-algoritma-insertion-short%e2%80%8b">
+                            26. Diketahui sebuah array 14 13 7 5 25 11 Urutkan array tersebut dengan algoritma insertion short​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pengurutan array menggunakan algoritma insertion sort.</p><p></p><p>Kondisi array awal : 14 13 7 5 25 11</p><p></p><p>Proses pengurutan menggunakan insertion sort :</p><p>Iterasi 1 : 13 14 7 5 25 11</p><p>Iterasi 2 : 7 13 14 5 25 11</p><p>Iterasi 3 : 5 7 13 14 25 11</p><p>Iterasi 4 : 5 7 13 14 25 11</p><p>Iterasi 5 : 5 7 11 13 14 25</p><p>Array sudah terurut.</p><br />
+                                            <h2 class="ez-toc-section" id="sebuah-data-tersimpan-dalam-array-a-571215192225273235374045535762666973gunakan-algoritma-binary-dan-fibonacci-search-untuk-mencari-data-x-20">
+                            27. Sebuah data tersimpan dalam Array A = {5,7,12,15,19,22,25,27,32,35,37,40,45,53,57,62,66,69,73}
+gunakan algoritma Binary dan fibonacci search untuk mencari data
+ X = 20</h2><br />
+                        yang bener adalah binary searh dan fibonacci.<br />1) untuk x = 20 ngga perlu binary search, karena jika pake binary search berarti anda sdh pny data yg mencangkup smua nilai<br />2) cukup pakai looping biasa untuk data kecil<br />data[1] := 5;   /* karena data yg anda sebutkan pertama kali adalah 5*/<br />data[2] := 7;<br />for i := 3 to 20 do<br />    data[i] := data[i-1] + data[i-2];<br /><br />writeln(data[20]);<br /><br />yg saya berikan adalah dlm bahasa pascal<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-10-contoh-soal-algoritma-berserta-pembahasan-nya">
+                            28. Sebutkan 10 contoh soal algoritma berserta pembahasan nya?</h2><br />
+                        Soal No.1<br />Hitunglah nilai dari logaritma dibawah ini :<br />9log 135 - 9log 5<br /><br />Pembahasan<br />9log 135 - 9log 5<br />⇔ 9log (<br />135<br />5<br />) <br />⇔ 9log 27<br />⇔ 32log 33 = <br />3<br />2<br /> x 3log 3 = <br />3<br />2<br /><br />Soal No.2<br />Hitunglah nilai dari logaritma dibawah ini :<br />a. 2log 4 + 2log 8 <br />b. 2log 2√2 + 2log 4√2 <br /><br />Pembahasan<br />a. 2log 4 + 2log 8<br />⇔ 2log 4.8<br />⇔ 2log 32 = 5<br /><br />b. 2log 2√2 + 2log 4√2 <br />⇔ 2log 2√2 x 4√2 <br />⇔ 2log 16 = 4<br /><br />Soal No.3<br />Hitunglah nilai dari logaritma berikut ini :<br />3 + log(log x)<br />3.log(log x1000)<br /><br /><br />Pembahasan<br />3 + log(log x)<br />3 . log(log x1000)<br /><br />⇔<br />log 103 + log(log x)<br />3 . log(1000 . log x)<br /><br />⇔<br />log (1000 . log x)<br />3 . log(1000 . log x)<br />= <br />1<br />3<br /><br /><br />Soal No.4<br />Hitunglah nilai logaritma dibawah ini :<br />a. 2log 5 x 5log 64 <br />b. 2log 25 x 5log 3 x 3log 32 <br /><br />Pembahasan<br />a. 2log 5 x 5log 64 <br />⇔ 2log 64 <br />⇔ 2log 26 = 6 <br /><br />b. 2log 25 x 5log 3 x 3log 32 <br />⇔ 2log 52 x 5log 3 x 3log 25 <br />⇔ 2 . 2log 5 x 5log 3 x 5 . 3log 2 <br />⇔ 2 x 5 x 2log 5 x 5log 3 x 3log 2 <br />⇔ 10 x 2log 2 = 10 x 1 = 10<br /><br /><br />Soal No.5<br />Berapakah nilai dari log 25 + log 5 + log 80 ? <br /><br />Pembahasan<br />log 25 + log 5 + log 80 <br />⇔ log (25 x 5 x 80) <br />⇔ log 10000 <br />⇔ log 104 = 4<br /><br /><br />Soal No.6<br />Jika diketahui 2log 7 = a dan 2log 3 = b. Maka berapakah nilai dari 6log 14 ? <br /><br />Pembahasan <br />2log 7 = a <br />⇔ <br />log 7<br />log 2<br /> = a <br />⇔ log 7 = a.log 2<br /><br />2log 3 = b <br />⇔ <br />log 3<br />log 2<br /> = b <br />⇔ log 3 = b.log 2 <br /><br />6log 14 = <br />log 14<br />log 6<br /><br />⇔ <br />log 2 . 7<br />log 2 . 3<br /> = <br />log 2 + log 7<br />log 2 + log 3<br /> = <br />log 2 + a log 2<br />log 2 + b log 2<br /> = <br />log 2(1 + a)<br />log 2(1 + b)<br /> = <br />(1 + a)<br />(1 + b)<br /><br /><br />Soal No.7<br />Jika nilai log 2 = a dan log 4 = b. Carilah nilai dari logaritma :<br />a. log 32 <br />b. log 800 <br /><br />Pembahasan<br /><br />a. log 32 = log (2 x 42)<br />⇔ log 2 + log 42 <br />⇔ a + 2b <br /><br />b. log 800 = log (2 x 4 x 100)<br />⇔ log 2 + log 4 + log 100 <br />⇔ a + b + 2<br /><br />Soal No.8<br />Log 3 - 0,477 dan log 2 - 0,301. Maka log 18 adalah??<br /><br />diketahui log3= 0,477 dan log2= 0,301<br />Log18 = Log 9 × 2 <br />           = Log 9 + log 2<br />           = log3² + log 2<br />           = 2(0,477) + 0,301<br />           = 0,954 + 0,301<br />           = 1,255 <br /><br />Soal No.9<br />Hasil dari log 25 + log 5 + log 80 adalah?<br />Log 25 + log 5 + log 80 = log(25×5×80)<br />                                        = log 10.000<br />                                        = log 10⁴<br />                                        = 4<br /><br />Soal No.10<br />1/2 Log 8 + 9 Log √3=<br />2-1Log 23 +  32Log 31/2<br />3/-1 * 2 Log 2 + 1/2/2 * 3Log3<br /><br />: -3 * 1 + 1/4 * 1<br /><br />Hasilnya: -3 + 1/4 = -11/4<br /><br />semoga membantu, maaf kl salah<br />
+                                            <h2 class="ez-toc-section" id="contoh-programarray%e2%80%8b">
+                            29. Contoh Programarray​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Array(atau larik dalam bhs. Indonesia) adalah sebuah tipe data bentukan yg terdiri dari sejumlah komponen dengan tipe yg sama. </p><p></p><p>...... SEMOGA MEMBANTU..... </p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma-tersebut-hingga-menghasilkan-array-c-dari-penggab">
+                            30. buatlah algoritma penggabungan array jika diketahui A=[1,3,5] dan B[2,4,6] akan digabungkan menjadi C=[1,2,3,4,5,6] dan tuliskan proses dari algoritma tersebut hingga menghasilkan array c dari penggabungan array a dan b</h2><br />
+                        algoritmanya<br />for i := 1 to 3 do <br />begin <br />       array c[i]:= array a[i]<br />       array c[i+3] := array b[i]<br />end for<br />for j := 1 to 2 do<br />       for k := 3 downto j+1 do<br />              begin<br />                     if c[j] &gt; c[k] then tukar(c[j],c[k]) //tukar adalah procedure untuk<br />                                                                      // menukar dua bilangan<br />                                                                     // kita bisa menggunakan <br />                                                                     //bubble sort<br />              end for<br />end.<br />dengan menyiapkan array c serta procedure sorting hasilnya array c menjadi terurut menaik<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="untuk-memudahkan-operasi-pengisian-array-dapat-digunakan-algoritma">
+                            31. Untuk memudahkan operasi pengisian array dapat digunakan algoritma</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Artimatika</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="latihan-soal1-apa-yang-yang-dimaksud-dengan-algoritma2-siapa-nama-ahli-yang-diambil-untuk-algoritma3-sebutkan-karakteristik-algoritma4-tuliskan-salah-satu-contoh-algoritma-dalamkehidupan-sehari">
+                            32. Latihan soal1. Apa yang yang dimaksud dengan algoritma?2. Siapa nama ahli yang diambil untuk algoritma?3. Sebutkan karakteristik algoritma!4. Tuliskan salah satu contoh algoritma dalamkehidupan sehari-hari!5. Apa yang dimaksud algoritma harus efektif?​</h2><br />
+                        <p>1. Algoritma adalah proses atau serangkaian aturan yang harus diikuti dalam perhitungan atau operasi pemecahan masalah lainnya, terutama oleh komputer. Dengan kata lain, semua susunan logis yang diurutkan berdasarkan sistematika tertentu dan digunakan untuk memecahkan suatu masalah.</p><p></p><p>2. Penemunya adalah seorang ahli matematika dari Uzbekistan yang bernama Abu Abdullah Muhammad Ibn Musa Al-Khwarizmi.</p><p></p><p>3. Algoritma harus berhenti setelah mengerjakan sejumlah langkah terbatas.</p><p>Setiap langkah harus di defenisikan dengan tepat dan tidak berarti dua (ambiguous).</p><p>Algoritma memiliki nol atau lebih masukan (input).</p><p>Algoritma mempunya nol atau lebih keluaran (output).</p><p>Algoritma harus sangkil (effective).</p><p></p><p>4. Mulai.</p><p>Masuk ke aplikasi playstore.</p><p>Cari aplikasi pada mesin pencari dibagian header (atas)</p><p>Sistem menampilkan daftar aplikasi sesuai kata kunci yang dicari.</p><p>Pilih aplikasi yang dikehendaki.</p><p>Klik tombol download.</p><p>Proses download berjalan.</p><p>Jika gagal maka akan muncul pesan download kembali, jika sukses muncul tombol instal.</p><p></p><p>5. Suatu algoritma dikatakan efektif jika algoritma tersebut dapat menghasilkan suatu solusi yang sesuai dengan masalah yang diselesaikan. Dengan kata lain suatu algoritma harus tepat guna. Suatu algoritma dikatakan efisien jika waktu proses dari algoritma relatif lebih singkat dan penggunaan memorinya lebih sedikit.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-essay-uts-dan-jawaban-algoritma-dan-pemrograman">
+                            33. Contoh Soal essay uts dan jawaban algoritma dan pemrograman</h2><br />
+                        Sebutkan fungsi driver di windows!<br /><br /><br /><br /><br /><br /><br /><br />Itu saja<br />
+                                            <h2 class="ez-toc-section" id="contoh-soal-array-multidimensi-tipe-string">
+                            34. contoh soal array multidimensi tipe string</h2><br />
+                        C<strong>ontoh soal array multidimensi tipe string adalah...</strong><strong></strong><strong>Contoh:</strong><p><strong></strong></p><p>// membuat array kosong dengan tipe data integer dan panjang 10
+</p><p>int nama_array[10];
+</p><p>
+</p><p>// membuat array dengan langsung diisi
+</p><p>int nama_arr[3] = {0, 3, 2}</p><p></p><p><strong>Penjelasan:</strong></p><p><strong></strong></p><p>Array adalah sekumpulan variabel yang memiliki tipe data yang sama dan dinyatakan dengan nama yang sama. Array merupakan konsep yang penting dalam pemrograman, karna array memungkinkan untuk menyimpan data maupun referensi objek dalam jumlah banyak dan terindeks</p><br />
+                                            <h2 class="ez-toc-section" id="urutkan-array-3524-dengan-algoritma-insertion-sort">
+                            35. Urutkan array (3,5,2,4) dengan algoritma insertion sort</h2><br />
+                        <p>Pengurutan<strong> array</strong> (3,5,2,4) secara algoritma insertion sort adalah sebagai berikut langkahnya: </p>3  5  2  43  2  5  43  2  5  42  3  5  42  3  4  5<p><strong>Insertion sort</strong> membandingkan suku ke n dan n+1 jika n+1 lebih kecil dari n maka dipindah paling kiri. Begitupun terjadi secara berulang.</p><p><strong>Pembahasan</strong></p><p><strong>Algoritma</strong> adalah sekumpulan instruksi  terstruktur dan terbatas yang diimplementasikan dalam bentuk program komputer untuk memecahkan masalah komputasi tertentu. Dalam matematika dan ilmu komputer, algoritma adalah prosedur langkah demi langkah untuk perhitungan, instruksi yang diberikan kepada komputer untuk melakukan tugas tertentu. Instruksi secara khusus ditulis untuk menyelesaikan tugas  tanpa kesalahan. Dimulai dengan istilah yang digunakan dan diakhiri dengan prosedur: <strong>Algoritma</strong> pengurutan penyisipan pada dasarnya mengurutkan data yang akan diurutkan menjadi dua bagian: bagian yang tidak disortir dan bagian yang  diurutkan. Elemen pertama diambil dari bagian array yang tidak disortir dan ditempatkan di bagian lain dari array yang diurutkan sesuai dengan posisinya.</p><p></p>Pelajari lebih lanjut<p>Pelajari lebih lanjut materi tentang Algoritma Insertion Sort: https://brainly.co.id/tugas/14723268</p><p></p><p><strong>#BelajarBersamaBrainly #SPJ9</strong></p><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-algoritma-matematika-dan-berikan-contoh-soalnya">
+                            36. Apa itu algoritma matematika? dan berikan contoh soalnya</h2><br />
+                        Logaritma merupakan invers atau kebalikan dari pemangkatan. logaritma biasanya digunakan untuk menentukan besar pangkat dari suatu bilangan pokok.<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-soal-algoritma-dan-pembahsnnyathankss">
+                            37. sebutkan 5 contoh soal algoritma dan pembahsnnya?
+thankss...</h2><br />
+                        contoh 1.. resep/rumus membuat kue..<br />pembahasan =pada setiap resep selalu ada langkah lasngkah membuat masaka,,.,<br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-penggabungan-array-jika-diketahui-a135-dan-b246-akan-digabungkan-menjadi-c123456-dan-tuliskan-proses-dari-algoritma">
+                            38. Buatlah algoritma penggabungan array jika diketahui a=[1,3,5] dan b=[2,4,6] akan digabungkan menjadi c=[1,2,3,4,5,6] dan tuliskan proses dari algoritma </h2><br />
+                        alogaritmanya kira-kira seperti ini<br />
+                                            <h2 class="ez-toc-section" id="pid-potongan-script-disamping-termasuk-data-bertipea-array-multi-dimensic-array-dimensi-tigab-array-dimensi-satud-array-dimensi-duae-array-dimensi-empat1-soal-essay-jawablah-pertanyaan-beriku">
+                            39. PID, Potongan script disamping termasuk data bertipea. Array Multi-Dimensic. Array dimensi tigab. Array dimensi satud. Array dimensi duae. Array dimensi empat1. Soal ESSAY : Jawablah pertanyaan berikut dengan benar1. Perhatikan algoritma berikut ini.KAMUSA, B, C, T:integerBEGIN ALGORITMAT=0INPUT (A)T = T+AINPUT (B)T=T+BINPUT (C)T=T+COUTPUT (T)END ALGORITMABerapakah nilai T, jika nilai A, B, C berturut-turut di INPUTkan dengan nilai 7,5 dan 2​</h2><br />
+                        <p><strong>kak</strong><strong> </strong><strong>mana</strong><strong> </strong><strong>jawa</strong><strong>ban</strong><strong> </strong><strong>nya</strong><strong> </strong><strong>ya</strong><strong> </strong><strong>kk</strong></p><br />
+                                            <h2 class="ez-toc-section" id="diberikan-array-2-dimensi-seperti-dibawah-ini-buat-algoritma-untuk-menampilkan-elemen-elemen-array-yang-diarsir">
+                            40. Diberikan array 2 dimensi seperti dibawah ini, buat algoritma untuk menampilkan elemen-elemen array yang diarsir!</h2><br />
+                        misal nilai array yang diarsir bernilai true<br />misal i dan j = baris dan kolom maka:<br /><br />for a := 1 to i do<br />   for b := 1 to j do<br />      begin<br />         if tabel[i,j] = true then writeln(tabel[i,j])<br />     end for<br /><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/EM8IgIIiOdY?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-opinion-and-idea.html">Contoh Soal Opinion And Idea</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/kekak.html">Kekak</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/jual-foto-bugil.html">Jual Foto Bugil</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-efisiensi-transformator-kelas-9.html">Contoh Soal Efisiensi Transformator Kelas 9</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/yoshida-sayu.html">Yoshida Sayu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/jaime-celis.html">Jaime Celis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/niat-puasa-senin-kamis.html">Niat Puasa Senin Kamis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/aesthetic-spotify-playlist.html">Aesthetic Spotify Playlist</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-diskusi-kelompok.html">Contoh Soal Diskusi Kelompok</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/angka-romawi.html">Angka Romawi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-ulangan-biologi-kelas-10-semester-1.html">Contoh Soal Ulangan Biologi Kelas 10 Semester 1</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-administrasi-perkantoran-kelas-10.html">Contoh Soal Administrasi Perkantoran Kelas 10</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/wa-me-settings.html">Wa me Settings</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-kuliah-akuntansi.html">Contoh Soal Kuliah Akuntansi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/chagiya-meaning.html">Chagiya Meaning</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-bahasa-inggris-pilihan-ganda.html">Contoh Soal Bahasa Inggris Pilihan Ganda</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-bilangan-desimal.html">Contoh Soal Bilangan Desimal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-pecahan-untuk-kelas-2-sd.html">Contoh Soal Pecahan Untuk Kelas 2 Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/contoh-soal-uji-kompetensi-perawat-d3-dan-pembahasannya.html">Contoh Soal Uji Kompetensi Perawat D3 Dan Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://ruangmateri.github.io/kardiak.html">Kardiak</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://ruangmateri.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://ruangmateri.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://ruangmateri.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://ruangmateri.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://ruangmateri.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
